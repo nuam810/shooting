@@ -34,7 +34,7 @@ export function handleCollisions() {
       { x: player.x, y: player.y, width: player.width, height: player.height },
       { x: e.x, y: e.y, width: e.width, height: e.height }
     )) {
-   player.life -= 1;
+   player.life -= 1;  
    if (player.life < 0) {
        document.location.reload();
     }

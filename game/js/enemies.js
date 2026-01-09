@@ -14,7 +14,7 @@ function pushEnemies(canvas) {
 }
 
 export function spawnEnemy(canvas) {
- if (enemies.length < 60 ) {
+ if (enemies.length < 5 ) {
     pushEnemies(canvas);
  }
 }
